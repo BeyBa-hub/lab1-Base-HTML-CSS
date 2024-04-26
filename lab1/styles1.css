@@ -1,0 +1,45 @@
+/* Стилі для таблиці та основних елементів */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Бічні панелі сині */
+.sidebar {
+    width: 20%; /* 20% від ширини таблиці */
+	background-color: dodgerblue; /* синій колір */
+}
+
+/* Основний контент */
+.content {
+    width: 80%; /* 80% від ширини таблиці */
+	background-color: white; /* білий фон */
+}
+
+/* Поле додаткової навігації */
+.navigation {
+    background-color: red; /* синій колір */
+}
+
+/* Футер жовтий */
+.footer, .header{
+    background-color: yellow;
+}
+
+/* Стиль для абзаців */
+p {
+    text-align: left;  /* Вирівнювання по лівому краю */
+    text-indent: 20px; /* Відступ першого рядка */
+    margin: 0 0 10px 0; /* Відступ між абзацами (верхній і нижній) */
+    line-height: 1.5;  /* Висота рядка для читабельності */
+}
+
+.last-cell {
+    width: 60%; /* Останній стовпець займає 60% */
+	text-align: right;  /* Вирівнювання по лівому краю */
+}

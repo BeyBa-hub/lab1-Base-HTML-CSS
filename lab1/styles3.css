@@ -1,0 +1,66 @@
+    /* Загальний стиль для сторінки */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Стиль для панелі навігації */
+    .header {
+        background-color: yellow;
+        padding: 10px; 
+        display: flex; /* Вирівнювання елементів горизонтально */
+        justify-content: space-between; /* Простір між елементами */
+        align-items: center; /* Вирівнювання вертикально */
+    }
+
+    /* Стиль для навігації */
+    .nav {
+        display: flex; /* Вирівнювання в рядок */
+        gap: 10px; /* Відстань між посиланнями */
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        padding: 10px; 
+        background-color: lightgray;
+        border-radius: 5px;
+    }
+
+    .nav a:hover {
+        background-color: gray; /* Фон при наведенні миші */
+    }
+
+    /* Стиль для трьох блоків в рядок */
+    .main {
+        display: flex; /* Розміщення блоків в рядок */
+        gap: 10px;  /*Відстань між блоками */
+        padding: 10px;
+    }
+
+    /* Бічні панелі сині */
+    .sidebar {
+        flex: 1; /* Однакова ширина для бічних панелей */
+        background-color: dodgerblue;
+        padding: 10px; 
+        text-align: center;
+    }
+
+    /* Основний контент */
+    .content {
+        flex: 2; /* Основний контент займає більше місця */
+        background-color: white;
+        text-align: center;
+    }
+
+    /* Футер */
+    .footer {
+        background-color: yellow;
+        text-align: center;
+    }
+	
+	    /* Додаткова червона панель внизу основного контенту */
+    .red-panel {
+        height: 30px; /* Висота панелі */
+        background-color: red; /* Червоний фон */
+    }
